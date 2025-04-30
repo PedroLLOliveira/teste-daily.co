@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import roomsRouter from './rooms';
+import roomsRouter from '../controllers/rooms';
 import tokensRouter from './tokens';
 
 const router = Router();
